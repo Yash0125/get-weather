@@ -1,0 +1,124 @@
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getCity{
+    transform-style: preserve-3d;
+    position: relative;
+    padding: 25px;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    transition: all 0.1s ease;
+}
+
+.title{
+    width: 100%;
+    color: #5ebefa;
+    background-color: white;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+
+  .getCity-title{
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    background-color: white;
+  }
+
+  .getCity-icon{
+    position: relative;
+    background-color: white;
+    color: #5ebefa;
+    top: 8px;
+    padding: 5px;
+    height: 22px !important;
+    cursor: pointer;
+  }
+
+  .getCity-image{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    transition: all 0.5s ease;
+
+  }
+  .getCity-temp{
+    display: flex;justify-content: center;
+    color: black;
+    background-color: white;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  .location-icon{
+    position: relative;
+    background-color: white;
+    color: black;
+    top: 8px;
+    padding: 5px;
+    height: 22px !important;
+  }
+  .getCity-location{
+    position: relative;
+    color: black;
+    background-color: white;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    bottom: 12px;
+  }
+  .getCity-feelsLike{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    float: right;
+
+  }
+  .getCity-humidity{
+    display: flex;
+    
+    float: right;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    flex: 1;
+  }
+
+  .getCity-error{
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: white;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    flex: 1;
+  }
